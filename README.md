@@ -18,5 +18,12 @@ apt install termux-api python wget -y
 * Now download the program script using wget package and install the necessary modules , and yes there are better ways to do this , we can use pipx though... now , copy and paste the code below...
 ```
 wget https://raw.githubusercontent.com/Lucifer516-sudo/public_repos/release/timer.py
+pip install typer[all]
+cp timer.py ~/usr/bin/data/data/com.termux/files/usr/bin/timer
+
 ```
-* 
+* now run it 
+```
+timer 1 --format ms # timer for 1minute in the format  min& seconds 
+```
+yeah done ...

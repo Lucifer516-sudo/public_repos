@@ -5,8 +5,8 @@
 * Termux app 
 * Termux-api app( plugin)
 ## Note download the above from the f-droid store using the below link:
-* link 1
-* link 2
+* [Termux App](https://f-droid.org/repo/com.termux_118.apk)
+* [Termux-api Plugin](https://f-droid.org/repo/com.termux.api_51.apk)
 
 ## On Termux:
 * Install `termux-api` package , `python`, `wget` using the below command .Just copy and paste it on the terminal 

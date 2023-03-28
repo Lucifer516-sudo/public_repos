@@ -22,3 +22,11 @@ jobs:
     - name: Python Black 
       run: |
         black -l 79 $(git ls-files '*.py')
+        
+    - name: Save file 
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        git commit -m "Added the test files"
+        git push

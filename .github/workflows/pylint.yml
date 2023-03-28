@@ -20,4 +20,4 @@ jobs:
         pip install black
     - name: Python Black 
       run: |
-        black -l 79$(git ls-files '*.py')
+        black -l 79 $(git ls-files '*.py')
